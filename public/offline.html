@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#050505" />
+  <title>Offline · Darkroom Arcade</title>
+  <style>
+    html,body{margin:0;height:100%;background:#050505;color:#f4f4f5;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    main{min-height:100%;display:grid;place-items:center;text-align:center;padding:24px}
+    img{width:96px;height:96px;filter:drop-shadow(0 0 24px rgba(248,244,0,.35))}
+    h1{font-size:22px;margin:20px 0 6px}
+    p{color:#9b9ba3;margin:0 0 20px}
+    button{background:#f8f400;color:#000;border:0;border-radius:12px;padding:12px 20px;font-weight:700;font-size:15px;cursor:pointer}
+  </style>
+</head>
+<body>
+  <main>
+    <div>
+      <img src="/brand/emblem.svg" alt="Darkroom Arcade" />
+      <h1>You're offline</h1>
+      <p>Timers keep running on the server. Reconnect to continue.</p>
+      <button onclick="location.reload()">Try again</button>
+    </div>
+  </main>
+</body>
+</html>
